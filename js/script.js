@@ -59,20 +59,12 @@ buttonNext.addEventListener('click', () => {
 renderPokemon(searchPokemon);
 
 
-const button_prev = document.getElementById("play-sound-prev");
-const sound_prev = new Audio('/sounds/button_click.mp3'); // Coloque o caminho do arquivo de som aqui
 
-button_prev.addEventListener("click", () => {
-  sound_prev.currentTime = 0; // Reinicia o som caso já esteja tocando
-  sound_prev.play();
-});
+const sound_prev = new Audio(); // Coloque o caminho do arquivo de som aqui
+sound_prev.src="./sounds/button_click.mp3";
 
 
-const button_next = document.getElementById("play-sound-next");
-const sound_next = new Audio('/sounds/button_click.mp3'); // Coloque o caminho do arquivo de som aqui
 
-button_next.addEventListener("click", () => {
-  sound_next.currentTime = 0; // Reinicia o som caso já esteja tocando
-  sound_next.play();
-});
+const sound_next = new Audio(); 
+sound_next.src="./sounds/button_click.mp3";
 

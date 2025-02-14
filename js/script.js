@@ -60,7 +60,7 @@ renderPokemon(searchPokemon);
 
 
 
-const sound_prev = new Audio(); // Coloque o caminho do arquivo de som aqui
+const sound_prev = new Audio(); 
 sound_prev.src="./sounds/button_click.mp3";
 
 

@@ -3,6 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pokedex Online" />
+  <meta name="author" content="Andre Luis Fernandes"/>
+  <meta name="reply-to" content="deco.luisfernandes@gmail.com">
+  <meta name="generator" content="Visual Studio Code">
+  <meta name="language" content="pt-br">
+  <meta name="robots" content="index,nofollow" />
+  <meta name="keywords" content="pokedex, pokemon"/>
 
   <!-- Links -->
   <link rel="icon" href="./favicons/favicon-16x16.png">
@@ -14,6 +21,10 @@
   <title>Pokédex</title>
 </head>
 <body>
+  <div class="top">
+    <h1 class="title">Pokedex Online</h1>
+    <p class="text top_text">A Pokédex, também conhecida como Poké-Agenda aqui no Brasil (e ainda como Dexter ou Dextette, dependendo da voz masculina ou feminina do aparelho), é uma mini enciclopédia eletrônica de pokémons. Ela contém informações de todos os pokémons existentes, ou pelo menos daqueles que estiverem registrados em seu banco de dados. </p>
+  </div>
   
   <main>
     <img src="#" alt="pokemon" class="pokemon__image">
@@ -27,14 +38,14 @@
       <input
         type="search"
         class="input__search"
-        placeholder="Name or Number"
+        placeholder="Digite o nome ou o número..."
         required
       />
     </form>
 
     <div class="buttons">
-      <button class="button btn-prev" onclick="sound_prev.play()">Prev &lt;</button>
-      <button class="button btn-next" onclick="sound_next.play()">Next &gt;</button>
+      <button class="button btn-prev" onclick="sound_prev.play()">Anterior &lt;</button>
+      <button class="button btn-next" onclick="sound_next.play()">Próximo &gt;</button>
     </div>
 
     <img src="./images/pokedex.png" alt="pokedex" class="pokedex">

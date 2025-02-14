@@ -9,7 +9,7 @@
 
 body {
   text-align: center;
-  background: linear-gradient(to bottom, #6ab7f5, #fff);
+  background-color: #23272c;
   min-height: 100vh;
 }
 
@@ -92,3 +92,54 @@ main {
   box-shadow: inset -4px 4px 0 #222;
   font-size: 0.9rem;
 }
+
+
+.title {
+  display: block;
+  margin: 0 auto;
+  background-color: aliceblue;
+  text-align: center;
+  width: fit-content;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  
+}
+
+
+.top{
+  margin-top: 30px;
+}
+
+.text{
+  display: block;
+  margin: 0 auto;
+  color:aliceblue;
+  text-align: center;
+  width: fit-content;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: justify;
+}
+
+.top_text{
+  margin-top: 30px;
+
+}
+
+@media (min-width: 1000px) {
+  .text {
+    width: 50%;
+  }
+}
+
+
+@media (min-width: 1000px) {
+  .title {
+    width: 50%;
+  }
+}
+
